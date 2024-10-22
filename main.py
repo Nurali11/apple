@@ -6,6 +6,7 @@ from ipad import Ipad_Window
 from mac import Mac_Window
 from watch import Watch_Window
 from aksesuar import Aksesuar_Window  
+from aksesuar import Aksesuar_Window
 
 
 class Frame_Window(QFrame):
@@ -69,6 +70,7 @@ class MyWindow(QWidget):
         self.logo.setAlignment(Qt.AlignHCenter | Qt.AlignTop)
 
         self.lbl2 = QLabel('Nima sotib olmoqchisiz?')
+        self.lbl2 = QLabel('Nima sotib olmocshiz?')
         self.lbl2.setStyleSheet('font-size: 50px; font-weight: solid')
         self.lbl2.setAlignment(Qt.AlignHCenter)
 
